@@ -1,0 +1,4 @@
+node_modules/
+
+# Secret configs
+config.js

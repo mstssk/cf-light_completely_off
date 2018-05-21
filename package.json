@@ -1,0 +1,14 @@
+{
+  "name": "light_completely_off",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "mstssk",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
