@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "lint": "eslint ."
   },
   "author": "mstssk",
   "license": "MIT",
@@ -12,5 +13,8 @@
     "axios": "^0.18.0",
     "cloud-functions-runtime-config": "^0.4.0",
     "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0"
   }
 }
