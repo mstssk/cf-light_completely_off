@@ -9,7 +9,7 @@ const runtimeConfig = require('cloud-functions-runtime-config');
 
 exports.light_completely_off = (req, res) => {
     if (req.method !== 'POST') {
-        res.status(400).send('Error');
+        res.status(400).send('Error')
         return;
     }
     co(function* () {
