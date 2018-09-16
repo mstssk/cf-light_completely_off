@@ -1,0 +1,8 @@
+linter:
+  eslint:
+    npm_install: true
+    options:
+      config: '.eslintrc.json'
+      ignore-path: .gitignore
+      # global: require,exports:true welcome.js
+      quiet: false
