@@ -30,7 +30,7 @@ exports.light_completely_off = (req, res) => {
     })
         .then(() => res.status(200).send('Success'))
         .catch(err => {
-            console.error(err);
+            console.error(err);  
             res.status(500).send('Error');
         });
 };
@@ -41,5 +41,5 @@ function config(name) {
 }
 
 function sleep(millisec) {
-    return new Promise((resolve, reject) => setTimeout(() => resolve(), millisec));
+    return new Promise((resolve, reject) => setTimeout(() => resolve(), millisec));  
 }
